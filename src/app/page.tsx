@@ -1,10 +1,9 @@
-import Text from "@/components/text";
-import Scene from "@/components/scene";
+import HomePage from "@/components/home";
 export default function Home() {
   return (
-    <main className="flex w-full h-screen items-center justify-center">
-      <Text />
-      <Scene />
+    <main className="flex w-full h-[100vh] box-border items-center justify-center">
+      <HomePage />
     </main>
   );
 }
+6;
